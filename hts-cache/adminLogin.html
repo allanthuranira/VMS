@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager's Login</title>
+    <link rel="icon" href="images/KSG Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            position: relative;
+            padding: 20px;
+            max-width: 770px;
+            margin: auto;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            box-shadow: -20px 20px 20px rgba(204, 255, 0, 0.9);
+        }
+
+        p {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        img {
+            position: absolute;
+            left: 75%;
+            transform: translateX(-50%);
+            top: 10px;
+            width: 100px;
+            height: auto;
+        }
+
+        .button {
+            margin: 20px 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .button-login {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .button-login:hover {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div style="text-align: left;">
+            <h1 style="font-size: 28px; color: #654321; margin-bottom: 24px; margin-left: 18px;">Manager's LOGIN</h1>
+            <form action="adminLogin.php" method="POST" id="loginForm">
+                <strong><label for="idNumber" style="font-size: 16px; color: #6CB40D; margin-bottom: 5px;">Personal
+                        Number:</label></strong>
+                <input type="text" id="personalNumber" name="personalNumber" class="form-control"
+                    placeholder="your Personal Number" required autocomplete="off">
+
+                <br>
+                <strong><label for="password"
+                        style="font-size: 16px; color: #6CB40D; margin-bottom: 5px;">Password</label></strong>
+                <input type="password" id="password" name="password" class="form-control" required autocomplete="off"
+                    required>
+                <br>
+                <button type="submit" class="button button-login">Login</button>
+            </form>
+        </div>
+        <img src="images/KSG Logo.png" alt="KSG Logo">
+    </div>
+
+</body>
+
+</html>

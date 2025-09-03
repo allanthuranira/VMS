@@ -1,0 +1,63 @@
+<?php
+require('fpdf/fpdf.php');
+
+// Database connection
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "ksg3";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Fetch records
+$sql = "SELECT idNumber, fullName, MeansQuestion, phoneNumber, motorNumber, passengerQuestion, passengerNumber, arrivalDateTime FROM ld";
+$result = $conn->query($sql);
+
+// Create instance of FPDF
+$pdf = new FPDF();
+$pdf->AddPage();
+
+// Set font
+$pdf->SetFont('Arial', 'B', 12);
+
+// Title
+$pdf->Cell(0, 10, 'Report', 0, 1, 'C');
+
+// Column headers
+$pdf->Cell(20, 10, 'ID', 1);
+$pdf->Cell(40, 10, 'Name', 1);
+$pdf->Cell(20, 10, 'Means', 1);
+$pdf->Cell(30, 10, 'Phone', 1);
+$pdf->Cell(30, 10, 'Motor Number', 1);
+$pdf->Cell(30, 10, 'Passenger Q', 1);
+$pdf->Cell(20, 10, 'Passenger No.', 1);
+$pdf->Cell(30, 10, 'Arrival Time', 1);
+$pdf->Ln();
+
+// Data rows
+if ($result->num_rows > 0) {
+    while ($row = $result->fetch_assoc()) {
+        $pdf->Cell(20, 10, $row['idNumber'], 1);
+        $pdf->Cell(40, 10, $row['fullName'], 1);
+        $pdf->Cell(20, 10, $row['MeansQuestion'], 1);
+        $pdf->Cell(30, 10, $row['phoneNumber'], 1);
+        $pdf->Cell(30, 10, $row['motorNumber'], 1);
+        $pdf->Cell(30, 10, $row['passengerQuestion'], 1);
+        $pdf->Cell(20, 10, $row['passengerNumber'], 1);
+        $pdf->Cell(30, 10, $row['arrivalDateTime'], 1);
+        $pdf->Ln();
+    }
+}
+
+// Output the PDF
+$pdf->Output();
+
+// Close the connection
+$conn->close();
+?>

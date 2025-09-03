@@ -1,0 +1,110 @@
+[18-Aug-2025 13:04:12 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ( 
+            motorNumber LIKE '%m%' OR
+            fullName LIKE '%m%...' at line 25 in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php:83
+Stack trace:
+#0 C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php(83): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php on line 83
+[18-Aug-2025 13:04:15 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ( 
+            motorNumber LIKE '%ma%' OR
+            fullName LIKE '%m...' at line 25 in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php:83
+Stack trace:
+#0 C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php(83): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php on line 83
+[18-Aug-2025 13:04:18 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ( 
+            motorNumber LIKE '%mat%' OR
+            fullName LIKE '%...' at line 25 in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php:83
+Stack trace:
+#0 C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php(83): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php on line 83
+[18-Aug-2025 13:04:30 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ( 
+            motorNumber LIKE '%m%' OR
+            fullName LIKE '%m%...' at line 25 in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php:83
+Stack trace:
+#0 C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php(83): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php on line 83
+[18-Aug-2025 13:06:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ( 
+            motorNumber LIKE '%r%' OR
+            fullName LIKE '%r%...' at line 25 in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php:83
+Stack trace:
+#0 C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php(83): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php on line 83
+[18-Aug-2025 13:06:29 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ( 
+            motorNumber LIKE '%rp%' OR
+            fullName LIKE '%r...' at line 25 in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php:83
+Stack trace:
+#0 C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php(83): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php on line 83
+[18-Aug-2025 13:06:32 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ( 
+            motorNumber LIKE '%r%' OR
+            fullName LIKE '%r%...' at line 25 in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php:83
+Stack trace:
+#0 C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php(83): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php on line 83
+[18-Aug-2025 13:06:35 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ( 
+            motorNumber LIKE '%ro%' OR
+            fullName LIKE '%r...' at line 25 in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php:83
+Stack trace:
+#0 C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php(83): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php on line 83
+[18-Aug-2025 13:06:37 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ( 
+            motorNumber LIKE '%r%' OR
+            fullName LIKE '%r%...' at line 25 in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php:83
+Stack trace:
+#0 C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php(83): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php on line 83
+[18-Aug-2025 13:06:41 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ( 
+            motorNumber LIKE '%ro%' OR
+            fullName LIKE '%r...' at line 25 in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php:83
+Stack trace:
+#0 C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php(83): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php on line 83
+[18-Aug-2025 13:06:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ( 
+            motorNumber LIKE '%r%' OR
+            fullName LIKE '%r%...' at line 25 in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php:83
+Stack trace:
+#0 C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php(83): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php on line 83
+[18-Aug-2025 13:07:48 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND ( 
+            motorNumber LIKE '%rh%' OR
+            fullName LIKE '%r...' at line 25 in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php:83
+Stack trace:
+#0 C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php(83): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php on line 83
+[19-Aug-2025 12:07:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS combined
+GROUP BY motorNumber, DATE(arrivalDateTime);
+) AS combined) AS t' at line 24 in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php:58
+Stack trace:
+#0 C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php(58): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php on line 58
+[19-Aug-2025 12:11:07 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS combined
+GROUP BY motorNumber, DATE(arrivalDateTime);
+) AS combined) AS t' at line 24 in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php:58
+Stack trace:
+#0 C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php(58): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php on line 58
+[19-Aug-2025 12:11:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS combined
+GROUP BY motorNumber, DATE(arrivalDateTime);
+) AS combined) AS t' at line 24 in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php:59
+Stack trace:
+#0 C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php(59): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php on line 59
+[19-Aug-2025 12:12:12 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'arrivalDateTime' in 'order clause' in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php:111
+Stack trace:
+#0 C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php(111): mysqli->query('SELECT * FROM (...')
+#1 {main}
+  thrown in C:\xampp\htdocs\KSG3 2\fetch_vehicle_data.php on line 111
